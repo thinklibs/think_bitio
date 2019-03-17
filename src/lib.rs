@@ -7,7 +7,7 @@ use std::sync::Arc;
 use byteorder::{ReadBytesExt, WriteBytesExt, LittleEndian, ByteOrder};
 
 #[cfg(feature="cgmath")]
-mod cgmath;
+mod cgmath_support;
 
 pub trait DeltaEncodable: Sized {
 

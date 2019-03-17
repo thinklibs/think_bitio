@@ -1,0 +1,11 @@
+[package]
+name = "think_bitio"
+version = "0.1.0"
+authors = ["Matthew Collins <me@thinkof.name>"]
+edition = "2018"
+
+[features]
+cgmath = []
+
+[dependencies]
+byteorder = "1.3.1"
